@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="200208" started-at="2018-06-29T16:02:06Z" finished-at="2018-06-29T16:05:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="200208" started-at="2018-06-29T16:02:06Z" finished-at="2018-06-29T16:05:26Z">
+      <class name="com.aws.main.AppTest">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.aws.main.AppTest@e25b2fe]" name="Start" is-config="true" duration-ms="2961" started-at="2018-06-29T19:02:06Z" finished-at="2018-06-29T19:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method status="PASS" signature="getAmazonWS()[pri:0, instance:com.aws.main.AppTest@e25b2fe]" name="getAmazonWS" duration-ms="29479" started-at="2018-06-29T19:02:09Z" finished-at="2018-06-29T19:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAmazonWS -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.aws.main.AppTest@e25b2fe]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2018-06-29T19:02:09Z" finished-at="2018-06-29T19:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.aws.main.AppTest@e25b2fe]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2018-06-29T19:02:38Z" finished-at="2018-06-29T19:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.aws.main.AppTest@e25b2fe]" name="BeforeMethod" is-config="true" duration-ms="3" started-at="2018-06-29T19:02:38Z" finished-at="2018-06-29T19:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Register()[pri:0, instance:com.aws.main.AppTest@e25b2fe]" name="Register" duration-ms="22363" started-at="2018-06-29T19:02:38Z" depends-on-methods="com.aws.main.AppTest.getAmazonWS" finished-at="2018-06-29T19:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.aws.main.AppTest@e25b2fe]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2018-06-29T19:03:00Z" finished-at="2018-06-29T19:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.aws.main.AppTest@e25b2fe]" name="Login" duration-ms="3989" started-at="2018-06-29T19:03:01Z" depends-on-methods="com.aws.main.AppTest.Register" finished-at="2018-06-29T19:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.aws.main.AppTest@e25b2fe]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2018-06-29T19:03:01Z" finished-at="2018-06-29T19:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.aws.main.AppTest@e25b2fe]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2018-06-29T19:03:04Z" finished-at="2018-06-29T19:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.aws.main.AppTest@e25b2fe]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2018-06-29T19:03:04Z" finished-at="2018-06-29T19:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="CreateList()[pri:0, instance:com.aws.main.AppTest@e25b2fe]" name="CreateList" duration-ms="15254" started-at="2018-06-29T19:03:04Z" depends-on-methods="com.aws.main.AppTest.Login" finished-at="2018-06-29T19:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateList -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.aws.main.AppTest@e25b2fe]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2018-06-29T19:03:20Z" finished-at="2018-06-29T19:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.aws.main.AppTest@e25b2fe]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2018-06-29T19:03:20Z" finished-at="2018-06-29T19:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="ProductAddList()[pri:0, instance:com.aws.main.AppTest@e25b2fe]" name="ProductAddList" duration-ms="126122" started-at="2018-06-29T19:03:20Z" depends-on-methods="com.aws.main.AppTest.CreateList" finished-at="2018-06-29T19:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductAddList -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.aws.main.AppTest@e25b2fe]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2018-06-29T19:05:26Z" finished-at="2018-06-29T19:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- com.aws.main.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
