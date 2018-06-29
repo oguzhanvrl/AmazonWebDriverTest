@@ -20,7 +20,7 @@ public class AppTest{
 	public WebElement myList;
 	public String[] productAddList = new String[] {"IPhone 8", "Amazon Kindle"}; // oluşturulan listeye eklenecek örnek ürünler
 	
-	public String newListName = "github"; //----------------- yeni oluşturulacak liste adını değiştirebilirsiniz.
+	public String newListName = "github"; //---- yeni oluşturulacak liste adını değiştirebilirsiniz.
 	
 	@BeforeTest
 	public void Start(){
@@ -69,16 +69,16 @@ public class AppTest{
 			Thread.sleep(100);
 			
 			WebElement name =driver.findElement(By.xpath("//*[@id='ap_customer_name']"));
-			name.sendKeys("deneme");
+			name.sendKeys("oguzhanvarol");
 
 			WebElement mail =driver.findElement(By.xpath("//*[@id='ap_email']"));
-			mail.sendKeys("deneme@deneme.com");
+			mail.sendKeys("oguzhannvarol@gmail.com");
 			
 			WebElement pass =driver.findElement(By.xpath("//*[@id='ap_password']"));
-			pass.sendKeys("denemeşifre");
+			pass.sendKeys("123456789");
 			
 			WebElement rePass =driver.findElement(By.xpath("//*[@id='ap_password_check']"));
-			rePass.sendKeys("denemeşifre");
+			rePass.sendKeys("123456789");
 			
 			driver.findElement(By.xpath("//*[@id='continue']")).click();
 			
@@ -101,11 +101,11 @@ public class AppTest{
 		try {
 			
 			WebElement mail =driver.findElement(By.xpath("//*[@id='ap_email']"));
-			mail.sendKeys("deneme@deneme.com"); // Amazon kullancı adınızı girin
+			mail.sendKeys("oguzhannvarol@gmail.com"); // Amazon kullancı adı girişi
 			driver.findElement(By.xpath("//*[@id='continue']")).click();
 			
 			WebElement pass =driver.findElement(By.xpath("//*[@id='ap_password']"));
-			pass.sendKeys("123456789"); // Amazon şifrenizi girin
+			pass.sendKeys("123456789"); // Amazon şifre girişi
 			driver.findElement(By.xpath("//*[@id='signInSubmit']")).click();
 			
 			System.out.println("Test3:Başarıyla Giriş Yapıldı.");	
