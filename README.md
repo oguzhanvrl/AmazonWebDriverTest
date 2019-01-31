@@ -1,5 +1,5 @@
 # AmazonWebDriverTest
- Assigning AmazonWebDriver Test Automation with Java + Selenium + TestNG + POM+ XPath auxiliary tool technologies 
+ Assigning AmazonWebDriver Test Automation with Java + Selenium + TestNG + POM + XPath auxiliary tool technologies 
 
 ## Used technologies :
 - **Java**
